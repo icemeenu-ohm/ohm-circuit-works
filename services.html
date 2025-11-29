@@ -1,44 +1,123 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Services — Ohm Circuit Works</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Ohm Circuit Works</title>
+  <meta name="description" content="Professional electronics assembly services: hand soldering, wire harness fabrication, cable assembly, and electro-mechanical assembly.">
   <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="container">
-    <div class="logo-row">
-      <img src="logo_pcb_gold.png" alt="Ohm Circuit Works logo">
-      <div>
-        <div style="font-weight:800">Ohm Circuit Works</div>
-        <div class="small">Precision · Quality · Reliability</div>
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="logo_pcb_gold.png" alt="Ohm Circuit Works">
+        <div>
+          <div class="logo-text">Ohm Circuit Works</div>
+          <div class="logo-tagline">Precision · Quality · Reliability</div>
+        </div>
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html" class="active">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="overline">Our Services</div>
+        <h2>Professional Electronics Assembly</h2>
+        <p>From precision hand soldering to complete wire harness fabrication, we deliver professional-grade assembly with full traceability.</p>
+      </div>
+      
+      <div class="grid">
+        <div class="card">
+          <div class="card-icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+          </div>
+          <h3>Hand Soldering</h3>
+          <p>IPC-A-610 & J-STD-001 based soldering for through-hole components, selective rework, connector soldering, and repairs. We handle fine-pitch work and conformal coating preparation with precision.</p>
+        </div>
+        
+        <div class="card">
+          <div class="card-icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+          </div>
+          <h3>Wire Harness & Cable Assembly</h3>
+          <p>Complete wire processing including cutting, stripping, crimping, terminal application, heat-shrink tubing, harness routing, and continuity testing. All work follows IPC/WHMA-A-620 standards.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+          </div>
+          <h3>Electro-Mechanical Assembly</h3>
+          <p>PCB installation, connector panel assembly, enclosure hardware installation, and torque-controlled fastenings with verification records for complete product builds.</p>
+        </div>
+        
+        <div class="card">
+          <div class="card-icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
+          </div>
+          <h3>Inspection & Testing</h3>
+          <p>Incoming inspection, in-process checks, and final visual inspection to IPC-A-610 Class 2 (or customer-specified). Continuity and functional testing available.</p>
+        </div>
+      </div>
+      
+      <div class="note">
+        <strong>Quality Assurance:</strong> We follow IPC-A-610, IPC/WHMA-A-620, and J-STD-001 workmanship standards and align our processes with ISO 9001:2015 principles. While not currently ISO certified, we maintain rigorous quality management practices.
       </div>
     </div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="services.html">Services</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-  <main class="container">
-    
-<section class="section">
-  <h2>Services</h2>
-  <div class="grid">
-    <div class="card"><h3>Hand Soldering</h3><p class="small">IPC-A-610 & J-STD-001 based soldering for through-hole, selective rework, connector soldering, and repairs. Fine-pitch work and conformal coating prep available.</p></div>
-    <div class="card"><h3>Wire Harness & Cable Assembly</h3><p class="small">Cutting, stripping, crimping, terminal application, heat-shrink tubing, harness routing, and continuity testing. Standards: IPC/WHMA-A-620.</p></div>
-    <div class="card"><h3>Electro-Mechanical Assembly</h3><p class="small">PCB installation, connector panel assembly, enclosure hardware installation, and torque-controlled fastenings with verification records.</p></div>
-    <div class="card"><h3>Inspection & Testing</h3><p class="small">Incoming inspection, in-process checks, final visual inspection to IPC-A-610 class 2 (or customer-specified). Continuity and functional testing available.</p></div>
-  </div>
-  <div style="margin-top:12px" class="note">Note: We follow IPC-A-610, IPC/WHMA-A-620, and J-STD-001 workmanship standards and align our processes with ISO 9001:2015 principles. We are not ISO certified at this time.</div>
-</section>
+  </section>
 
-  </main>
+  <section class="cta-section">
+    <div class="container">
+      <h2>Have a Project in Mind?</h2>
+      <p>Send us your requirements, drawings, or questions. We respond quickly with clear guidance.</p>
+      <a href="contact.html" class="btn btn-primary">Get Started</a>
+    </div>
+  </section>
+
   <footer>
-    <div class="small">© 2025 Ohm Circuit Works — All rights reserved. Follow IPC-A-610, IPC/WHMA-A-620 & J-STD-001. QMS aligned to ISO 9001:2015 principles (not certified).</div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="logo_pcb_gold.png" alt="Ohm Circuit Works">
+            <span>Ohm Circuit Works</span>
+          </div>
+          <p>Professional small-batch electronics assembly from our ESD-safe facility in Sanford, Florida.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Standards</h4>
+          <ul>
+            <li>IPC-A-610</li>
+            <li>J-STD-001</li>
+            <li>IPC/WHMA-A-620</li>
+            <li>ISO 9001:2015 Aligned</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Ohm Circuit Works — All rights reserved. QMS aligned to ISO 9001:2015 principles (not certified).</p>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
