@@ -107,7 +107,6 @@ header {
   width: 56px;
   height: 56px;
   border-radius: 8px;
-  filter: brightness(0) invert(1);
 }
 
 .logo-text {
@@ -473,7 +472,6 @@ footer {
   width: 40px;
   height: 40px;
   border-radius: 6px;
-  filter: brightness(0) invert(1);
 }
 
 .footer-logo span {
